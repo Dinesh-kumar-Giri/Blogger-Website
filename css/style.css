@@ -1,0 +1,230 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    /* border: 1px solid red; */
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.navigationbar{
+    font-family: var(--font1);
+    height: 60px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    
+}
+
+.navleft{
+    /* font-size: 35px; */
+    display: flex;
+    /* nav-left: fixed; */
+
+}
+.navleft span{
+    font-size: 35px;
+    padding-bottom:2px ;
+    display: flex;
+
+}
+.navleft ul li{
+    list-style: none;
+    margin: 0 15px;
+    font-family: var(--font2);
+    align-items: center;
+    
+}
+
+.navleft ul {
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    margin: 9px 32px;
+}
+.navleft ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s case-in-out;
+    font-size: 25px;
+}
+
+.navleft ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+.navright{
+    /* border: 2px solid red; */
+}
+
+/* <--------------content CSS start---------> */
+.content{
+    height: 367px;
+    display: flex;
+    /* background-color:#40407a;
+     */
+     /* padding: 9px; */
+     /* margin-top: 20px; */
+     position: relative;
+}
+.content::after{
+    content: "";
+    background-image: url(/images/A0.jpg);
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    opacity: 0.15;
+}
+.content-left{
+    /* height: 40px; */
+
+    /* width: 50%; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+    z-index: 1;
+
+}
+.content-right{
+    /* height: 40px; */
+    /* width: 40%; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img{
+    /* width: 300px; */
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.content-left h1{
+    margin-bottom: 20px;
+}
+
+
+
+/* <<<<<---------content end -------------------->>>>>>>>>>> */
+
+
+/* <<-------------article  CSS start---------------->> */
+
+.articles{
+    /* height: 455px; */
+    /* background-color:#34ace0; */
+    padding-top: 12px;
+    /* border: 2px solid rgb(233, 9, 222); */
+    margin-top:20px ;
+    background-color:rgba(255, 204, 204,.2);
+    position: relative;
+
+}
+
+.year-box{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    right: 80px;
+    top: 100px;
+}
+
+.year-box div{
+    margin: 11px 0px;
+}
+.home-article-content{
+    align-self: center;
+    padding: 0 28px;
+    /* border: 2px solid rgb(233, 9, 222); */
+
+}
+.home-article-content h3{
+
+    padding: 10px 0;
+
+}
+.home-article-content a{
+    text-decoration: none;
+    /* color: var(--main-bg-color); */
+    color: black;
+}
+.home-article{
+    display: flex;
+    margin: 25px;
+    /* border: 2px solid rgb(233, 9, 222); */
+    /* flex-direction: column; */
+
+    
+}
+.home-article img{
+    width: 370px;
+    /* height: 250px; */
+    /* background-size: cover; */
+    /* background-image: ; */
+    /* border: 2px solid rgb(233, 9, 222); */
+
+}
+
+
+
+.form-input{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 4px 5px;
+    margin: 0 12px;
+sz    font-family: var(--font1);
+
+}
+
+.btn{
+    margin: 0 4px;
+    padding: 2px 8px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    /* color: #fff; */
+    font-style: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: var(--main-bg-color);
+    color: white;    
+    /* background-color:brown; */
+
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #fff;
+    background-color: #576574;
+    flex-direction: column;
+    margin-top: 12px 0;
+}
+
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer a:hover{
+    text-decoration: none;
+    transition: all .4s ;
+    color:brown;
+}
+

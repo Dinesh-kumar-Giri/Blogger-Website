@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+:root {
+    --main-bg-color:#8e44ad;
+    --font1:'Roboto', sans-serif;
+   --font2:'Merriweather', serif;
+   --font3:'Itim', cursive;
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 80vw;
+}
+.max-width-3{
+    max-width: 54vw;
+}
+
+
+.m-auto{
+    margin: auto;
+}
+
+.footer{
+    width: 100%;
+}
+
+
+
+.font1{
+   font-family: var(--font1); 
+}
+.font2{
+    font-family: var(--font2);
+}
+
+.font3{
+    font-family: var(--font3);
+}
+
+.form-box input, textarea{
+
+  
+    width: 48vw;
+    padding: 3px 4px;
+    margin: 10px 0px;
+    font-size: 15px;
+    border: 2px solid sandybrown;
+    border-radius: 5px;
+
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 20px;
+}
+.my-2{
+    margin-bottom: 20px;
+    /* margin-left: 12px; */
+}
+button{
+    cursor: pointer;
+}
